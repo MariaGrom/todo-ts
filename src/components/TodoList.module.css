@@ -1,0 +1,33 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  height: 2rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #9a9797;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #000;
+}
